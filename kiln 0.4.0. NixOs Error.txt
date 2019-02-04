@@ -1,0 +1,148 @@
+building '/nix/store/g5nfggphy82pvlayvif4pcffvv41zv1y-SHA-1.6.4.4.drv'...
+setupCompilerEnvironmentPhase
+Build with /nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3.
+ignoring (possibly broken) abi-depends field for packages
+ignoring (possibly broken) abi-depends field for packages
+unpacking sources
+unpacking source archive /nix/store/ycp1zbir38w1vmpi5qj2gindib7l8kv0-SHA-1.6.4.4.tar.gz
+source root is SHA-1.6.4.4
+setting SOURCE_DATE_EPOCH to timestamp 1521074294 of file SHA-1.6.4.4/src/Test.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/build/setup-package.conf.d -j1 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /build/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4 --libdir=$prefix/lib/$compiler --libsubdir=$abi/$libname --docdir=/nix/store/xl4nfz18qawp4s1zisihy85lfg5h0vq5-SHA-1.6.4.4-doc/share/doc/SHA-1.6.4.4 --with-gcc=gcc --package-db=/build/package.conf.d --ghc-option=-j1 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-static --disable-executable-dynamic --enable-tests --enable-library-vanilla --enable-library-for-ghci --ghc-option=-split-sections --ghc-options=-fexpose-all-unfoldings --extra-lib-dirs=/nix/store/s2n99784krxl91mfw3cnn9ylbb5fjvkx-ncurses-6.1/lib --extra-lib-dirs=/nix/store/rxaclc3vhxbzgfllv7601i85z854h48a-gmp-6.1.2/lib
+Using Parsec parser
+Configuring SHA-1.6.4.4...
+Flags chosen: exe=False
+Dependency QuickCheck >=2.5 && <3: using QuickCheck-2.11.3
+Dependency array >0 && <10000: using array-0.5.2.0
+Dependency base >4.3 && <6: using base-4.11.1.0
+Dependency binary >=0.7 && <10000: using binary-0.8.5.1
+Dependency bytestring >0.8 && <10000: using bytestring-0.10.8.2
+Dependency test-framework >=0.8.0.3 && <10000: using test-framework-0.8.2.0
+Dependency test-framework-quickcheck2 >=0.3.0.2 && <10000: using
+test-framework-quickcheck2-0.3.0.4
+Source component graph:
+    component test:test-sha
+    component lib
+Configured component graph:
+    component SHA-1.6.4.4-EJ9r7ikKpiUCplupWJaLdo-test-sha
+        include array-0.5.2.0
+        include base-4.11.1.0
+        include binary-0.8.5.1
+        include bytestring-0.10.8.2
+        include QuickCheck-2.11.3-3XHQpBYb83U2mMvNz2AjQX
+        include test-framework-0.8.2.0-4jldNGdGPZc4fO1xMg00mb
+        include test-framework-quickcheck2-0.3.0.4-7fG839FjchhBOut6cJvIl
+    component SHA-1.6.4.4-CIC5PFpoo1CH7FBGS2QUPF
+        include array-0.5.2.0
+        include base-4.11.1.0
+        include binary-0.8.5.1
+        include bytestring-0.10.8.2
+Linked component graph:
+    unit SHA-1.6.4.4-EJ9r7ikKpiUCplupWJaLdo-test-sha
+        include array-0.5.2.0
+        include base-4.11.1.0
+        include binary-0.8.5.1
+        include bytestring-0.10.8.2
+        include QuickCheck-2.11.3-3XHQpBYb83U2mMvNz2AjQX
+        include test-framework-0.8.2.0-4jldNGdGPZc4fO1xMg00mb
+        include test-framework-quickcheck2-0.3.0.4-7fG839FjchhBOut6cJvIl
+    unit SHA-1.6.4.4-CIC5PFpoo1CH7FBGS2QUPF
+        include array-0.5.2.0
+        include base-4.11.1.0
+        include binary-0.8.5.1
+        include bytestring-0.10.8.2
+        Data.Digest.Pure.SHA=SHA-1.6.4.4-CIC5PFpoo1CH7FBGS2QUPF:Data.Digest.Pure.SHA
+Ready component graph:
+    definite SHA-1.6.4.4-EJ9r7ikKpiUCplupWJaLdo-test-sha
+        depends array-0.5.2.0
+        depends base-4.11.1.0
+        depends binary-0.8.5.1
+        depends bytestring-0.10.8.2
+        depends QuickCheck-2.11.3-3XHQpBYb83U2mMvNz2AjQX
+        depends test-framework-0.8.2.0-4jldNGdGPZc4fO1xMg00mb
+        depends test-framework-quickcheck2-0.3.0.4-7fG839FjchhBOut6cJvIl
+    definite SHA-1.6.4.4-CIC5PFpoo1CH7FBGS2QUPF
+        depends array-0.5.2.0
+        depends base-4.11.1.0
+        depends binary-0.8.5.1
+        depends bytestring-0.10.8.2
+Using Cabal-2.2.0.1 compiled by ghc-8.4
+Using compiler: ghc-8.4.3
+Using install prefix: /nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4
+Executables installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/bin
+Libraries installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/lib/ghc-8.4.3/x86_64-linux-ghc-8.4.3/SHA-1.6.4.4-CIC5PFpoo1CH7FBGS2QUPF
+Dynamic Libraries installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/lib/ghc-8.4.3/x86_64-linux-ghc-8.4.3
+Private executables installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/libexec/x86_64-linux-ghc-8.4.3/SHA-1.6.4.4
+Data files installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/share/x86_64-linux-ghc-8.4.3/SHA-1.6.4.4
+Documentation installed in:
+/nix/store/xl4nfz18qawp4s1zisihy85lfg5h0vq5-SHA-1.6.4.4-doc/share/doc/SHA-1.6.4.4
+Configuration files installed in:
+/nix/store/l5fksw39nligdlss9rdjvxyc0fsmas82-SHA-1.6.4.4/etc
+No alex found
+Using ar found on system at:
+/nix/store/h0lbngpv6ln56hjj59i6l77vxq25flbz-binutils-2.30/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7.3.0 given by user at:
+/nix/store/iw94llkj05wgaz268mlzvgx8jkbi1ss0-gcc-wrapper-7.3.0/bin/gcc
+Using ghc version 8.4.3 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/ghc
+Using ghc-pkg version 8.4.3 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.20.0 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/shhfbn131vj96nni715lnp1xlhjfv1c0-hscolour-1.24.4/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/6yz7851vibc1xjxpiyfzqqi2ksbv6qah-binutils-wrapper-2.30/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.3 found on system at:
+/nix/store/n5i1zdpmk2b1s3z96649xh8f9kr3g96s-ghc-8.4.3/bin/runghc
+Using strip version 2.30 found on system at:
+/nix/store/h0lbngpv6ln56hjj59i6l77vxq25flbz-binutils-2.30/bin/strip
+Using tar found on system at:
+/nix/store/lxbaya2mzjc3xzbcsykrcbvcf5vxvfia-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing test suite 'test-sha' for SHA-1.6.4.4..
+Building test suite 'test-sha' for SHA-1.6.4.4..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Data.Digest.Pure.SHA
+[1 of 2] Compiling Data.Digest.Pure.SHA ( src/Data/Digest/Pure/SHA.hs, dist/build/test-sha/test-sha-tmp/Data/Digest/Pure/SHA.o )
+ghc: internal error: Unable to commit 1048576 bytes of memory
+    (GHC version 8.4.3 for x86_64_unknown_linux)
+    Please report this as a GHC bug:  http://www.haskell.org/ghc/reportabug
+/nix/store/i6vl5lwlz5jbkg4r6p340dwmj6fha3xq-stdenv-linux/setup: line 1291:  1800 Aborted                 ./Setup build
+builder for '/nix/store/g5nfggphy82pvlayvif4pcffvv41zv1y-SHA-1.6.4.4.drv' failed with exit code 134
+building '/nix/store/kmjl0vyjgwhnvvnjqsqx5apg90icpwnz-bakemonitor-semantic-ui.drv'...
+cannot build derivation '/nix/store/7q1yikxcw01lgfy6c5hsgvxxxr3gkck4-obelisk-asset-manifest-0.1.drv': 1 dependencies couldn't be built
+cannot build derivation '/nix/store/mq5b0g9w0a3lvcbk5g4qwpbqnr7vrv7s-asset-manifest.drv': 1 dependencies couldn't be built
+cannot build derivation '/nix/store/x5b7bcd0vngbn1z5dhpmb6kcndac8wf1-cabal2nix-obelisk-generated-static.drv': 1 dependencies couldn't be built
+error: build of '/nix/store/x5b7bcd0vngbn1z5dhpmb6kcndac8wf1-cabal2nix-obelisk-generated-static.drv' failed
+(use '--show-trace' to show detailed location information)
